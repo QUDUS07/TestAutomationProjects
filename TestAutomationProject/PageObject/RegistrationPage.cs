@@ -21,7 +21,7 @@ namespace TestAutomationProject.PageObject
         IWebElement Password => driver.FindElement(By.CssSelector("body > div > div > div > div > div > div > form > fieldset > fieldset:nth-child(3) > input"));
         IWebElement SignUpButton => driver.FindElement(By.CssSelector("body > div > div > div > div > div > div > form > fieldset > button"));
         IWebElement NewArticle => driver.FindElement(By.XPath("(//a[@class='nav-link'])[3]"));
-
+        
 
         public void ClickSignUp () 
         {
